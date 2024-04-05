@@ -16,12 +16,12 @@
 </head>
 
 <body>
-    <!--<header class="page-header">
+    <header class="page-header">
         <div class="container header-container">
             <nav class="page-navigation">
                 <a class="logo" href="./index.html">Web <span class="logo-header-color">Studio
                     </span></a>
-                <ul class="menu">
+                <ul class="menu-list">
                     <li class="menu-item">
                         <a class="menu-link current" href="./index.html">Studio</a>
                     </li>
@@ -43,8 +43,75 @@
                     </li>
                 </ul>
             </address>
+            <button class="mob-menu-open-btn" type="button">
+                <svg class="mob-menu-open-btn-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+                </svg>
+            </button>
         </div>
-    </header>-->
+        <div class="mob-menu ">
+            <div>
+            <button class="mob-menu-close-btn" type="button">
+                <svg class="mob-menu-close-btn-icon" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <nav class="mob-page-navigation">
+            <ul class="mob-menu-list">
+                <li class="mob-menu-item">
+                    <a class="mob-menu-link mob-current" href="./index.html">Studio</a>
+                </li>
+                <li class="mob-menu-item">
+                    <a class="mob-menu-link" href="">Portfolio</a>
+                </li>
+                <li class="mob-menu-item">
+                    <a class="mob-menu-link" href="">Contacts</a>
+                </li>
+            </ul>
+            </nav>
+            </div>
+            <div>
+            <ul class="mob-contact-list">
+                <li>
+                    <a class="mob-contact-menu-link mob-tel"  href="tel:+110001111111">+11 (000) 111-11-11</a>
+                </li>
+                <li>
+                    <a class="mob-contact-menu-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+            </ul>
+            <ul class="mob-social-list">
+                <li class="mob-social-list-item">
+                    <a href="" class="mob-social-list-link">
+                        <svg class="mob-social-list-icons" width="16" height="16">
+                            <use href="./images/icons.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mob-social-list-item">
+                    <a href="" class="mob-social-list-link">
+                        <svg class="mob-social-list-icons" width="16" height="16">
+                            <use href="./images/icons.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mob-social-list-item ">
+                    <a href="" class="mob-social-list-link">
+                        <svg class="mob-social-list-icons" width="16" height="16">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mob-social-list-item">
+                    <a href="" class="mob-social-list-link">
+                        <svg class="mob-social-list-icons" width="16" height="16">
+                            <use href="./images/icons.svg#icon-linkedin"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </header>
     <main>
         <section class="hero">
             <div class="container">
@@ -105,7 +172,7 @@
             </div>
         </section> 
         <section class="our-team">
-            <div class="container">
+            <div class="container team-container">
                 <h2 class="section-title our-team-section-title">Our Team</h2>
                 <ul class="our-team-list">
                     <li class="our-team-list-item">
@@ -264,7 +331,7 @@
                 </ul>
             </div>
         </section> 
-       <!-- <section class="our-portfolio">
+        <section class="our-portfolio">
             <div class="container">
                 <h2 class="section-title">Our Portfolio</h2>
                 <ul class="our-portfolio-list">
@@ -401,9 +468,9 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section> 
     </main>
-    <!--<footer class="page-footer">
+    <footer class="page-footer">
         <div class="container footer-container">
             <div class="logotype">
             <a class="page-footer-logo" href="./index.html"> Web <span class="logo-footer-color">Studio
@@ -464,8 +531,8 @@
             </form>
             </div>
         </div>
-    </footer> -->
-  <!--<div class="backdrop ">
+    </footer> 
+  <div class="backdrop ">
         <div class="modal">
             <button class="modal-close-btn" type="button">
                 <svg class="modal-close-btn-icon" width="8" height="8">
@@ -534,7 +601,7 @@
                 <button class="review-form-submit-btn" type="submit">Send</button>
             </form>
         </div>
-    </div> -->
+    </div> 
 </body>
 
 </html>
