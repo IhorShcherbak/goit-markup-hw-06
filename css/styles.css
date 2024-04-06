@@ -82,7 +82,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    margin-right: 76px;
+    
 }
 
 .logo-header-color {
@@ -179,7 +179,6 @@ body {
     align-items: center;
     justify-content: center;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 0;
     background-color: #e7e9fc;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 margin-bottom: 24px;
@@ -238,7 +237,7 @@ margin-left: auto;
     gap: 40px;
     align-items: center;
     justify-content: center;
-    margin-bottom: 40px;
+   
 }
 
 .mob-social-list-link {
@@ -384,12 +383,15 @@ width: 296px;
    flex-direction: column;
     gap: 72px;
     
-    
+}
+.position {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .our-team-list-item {
     background-color: #FFFFFF;
     max-width: 264px;
-        padding: 0px 0px 32px 0px;
+      
         border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
         background: #fff;
@@ -446,9 +448,7 @@ width: 296px;
         
 }
 
-.our-team-list-img {
-    margin-bottom: 32px;
-}
+
 .our-team-section-title {
   
         margin-left: auto;
@@ -457,8 +457,8 @@ width: 296px;
 }
 
 .our-portfolio {
-    padding-top: 71px;
-    padding-bottom: 71px;
+    padding-top: 72px;
+    padding-bottom: 72px;
 }
 .section-title {
     font-size: 36px;
@@ -474,9 +474,7 @@ width: 296px;
 }
 .image {
     position: relative;
-    overflow: hidden;
-
-    
+    overflow: hidden; 
 }
 
 .image:hover .text-overlay {
@@ -698,7 +696,6 @@ visibility: visible;
     align-items: center;
     justify-content: center;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 0;
             background-color: #e7e9fc;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
             
@@ -823,7 +820,7 @@ outline: transparent;
         border: 1px solid rgba(46, 47, 66, 0.4);
     cursor: pointer;
     fill: transparent;
-    margin-right: 8px;
+    margin-right: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -840,6 +837,7 @@ outline: transparent;
 .privacy-policy-link {
     color: #4d5ae5;
     text-decoration: underline;
+    padding-left: 24px;
 }
 
 .review-form-submit-btn {
@@ -881,6 +879,10 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
             display: flex;
    
         }
+
+                .logo {
+                    margin-right: 76px;
+                }
     
         .contact-list {
             display: flex;
@@ -975,7 +977,7 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         }
     
         .our-benefits-list-title {
-            text-align: center;
+            text-align:left;
         }
      
 
@@ -1002,8 +1004,8 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
 
  .our-portfolio {
-     padding-top: 71px;
-     padding-bottom: 71px;
+     padding-top: 72px;
+     padding-bottom: 72px;
  }
 
 
@@ -1012,7 +1014,7 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
      display: flex;
      flex-direction: row;
      flex-wrap: wrap;
-     row-gap: 71px;
+     row-gap: 72px;
      gap: 24px;
 
  }
@@ -1029,17 +1031,12 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
      flex-wrap: wrap;
      flex-direction: row;
      gap: 72px 24px;
-     margin-left: 92px;
+width: 584px;
      justify-content: left;
 
  }
 
- .page-footer {
 
-     padding-top: 100px;
-     padding-bottom: 100px;
-
- }
 
  .page-footer-logo {
 
@@ -1092,6 +1089,14 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
      background: #fcfcfc;
      border-radius: 4px;
      transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+
+ .review-form-own-checkbox {
+     margin-right: 8px;
+ }
+
+ .privacy-policy-link {
+     padding-left: 0;
  }
        
   }
@@ -1275,7 +1280,6 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 .footer-container {
     display: flex;
     align-items: baseline;
-    /*flex-wrap: wrap;*/
     flex-direction: row;
     
 }
@@ -1328,6 +1332,11 @@ justify-content: left;
     width: 264px;
     
 }
+
+.icon-person {
+fill: #4d5ae5;
+}
+
 
 
 }
